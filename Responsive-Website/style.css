@@ -1,0 +1,189 @@
+/* 
+
+=== FoodGo Lab ===
+
+Do not delete existing CSS
+
+*/
+
+/* == Typography == */
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 1rem;
+    line-height: 1.29rem;
+}
+
+h2 {
+    font-size: 2.14rem;
+}
+
+header,
+footer {
+    color: #b56441;
+}
+
+a {
+    text-decoration: none;
+    color: #b56441;
+    font-size: 1rem;
+}
+
+#legal {
+    font-size: .71rem;
+    font-style: italic;
+}
+
+#nav a {
+    margin-right: .54rem;
+}
+
+#nav a:hover {
+    color: #7d4700;
+}
+
+#splash {
+    text-align: center;
+    font-size: 3.43rem;
+    line-height: 4.29rem;
+    color: white;
+    text-shadow: 0px 0px .268rem #6e6e6e;
+}
+
+footer {
+    font-style: italic;
+}
+
+/* Font Awesome icons */
+.fab {
+    font-size: 2.14rem;
+    margin-right: .536rem;
+}
+
+.fab:hover {
+    color: ;
+}
+
+button {}
+
+/* == Background == */
+
+
+body {
+    background-color: #fcd303;
+}
+
+main {
+    background-color: #ffdd80;
+}
+
+#splash {
+    background-image: url(splash-backing.jpg);
+}
+
+/* == Box Model == */
+
+body {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+footer {
+    padding: .538rem;
+}
+
+header {
+    padding: 1.071rem;
+}
+
+button {
+    border: 0;
+    background-color: #b56441;
+    color: #fff;
+    padding: 1.071rem;
+    font-size: 2.14rem;
+    margin-top: .804rem;
+}
+
+footer {
+    padding-top: 2.679rem;
+}
+
+#splash {
+    height: 21.429rem;
+}
+
+#app {
+    height: 10.714rem;
+}
+
+/* === Layout  === */
+
+
+/* = Grid =*/
+header,
+footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+#app {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#splash {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+/* = Flexbox = */
+
+#app,
+#splash {
+    display: flex;
+}
+
+#app,
+#splash {
+    align-items: center;
+    justify-content: center;
+}
+
+/* = Other = */
+
+* {
+    box-sizing: border-box;
+}
+
+#social-media {
+    text-align: right;
+}
+
+#app {
+    text-align: center;
+}
+
+#nav a {
+    display: block;
+    background-color:orange;
+    text-align: center;
+    padding: .0536rem;}
+
+#logo {
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#mobile-menu {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
