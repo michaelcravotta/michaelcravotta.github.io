@@ -1,0 +1,71 @@
+a {
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    color: black;
+    padding-left: 7.14%;
+    padding-right: 7.14%;
+    margin-bottom: 24pt;
+    
+}
+
+.sale { 
+    font-family: 'Prompt', sans-serif;
+    font-size: 12pt;
+    color: white;
+    background: #8096A2;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+.nav a hover{
+    justify-content: center;
+    position: fixed;
+    margin-bottom: 24pt;
+}
+
+
+#zen-title {
+    text-align: center;
+}
+
+#pictures {
+    max-width:540px;
+    max-height:589px;
+    width: 540px;
+    height: 589px;
+}
+
+body {
+    font-family: 'Prompt', sans-serif;}
+
+div {
+    padding-top: 80px;
+}
+
+#newspring {
+    float: left;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    display: inline;
+}
+
+#baja {
+    float:right;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    padding-bottom: 80px;
+    
+}
+
+footer {
+    position: fixed;
+    background-color: black;
+    bottom: 0px;
+    width:100%;
+    color: white;
+    padding-top: px;
+}
+
+}
