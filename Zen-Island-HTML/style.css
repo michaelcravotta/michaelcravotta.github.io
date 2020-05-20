@@ -3,69 +3,107 @@ a {
     text-decoration: none;
     justify-content: center;
     color: black;
-    padding-left: 7.14%;
-    padding-right: 7.14%;
-    margin-bottom: 24pt;
-    
+    width: 20%;
+    display: inline-block;
+    font-size: 12pt;
+
 }
 
-.sale { 
+.sale {
     font-family: 'Prompt', sans-serif;
     font-size: 12pt;
     color: white;
     background: #8096A2;
-    position: fixed;
     width: 100%;
     text-align: center;
 }
 
-.nav a hover{
-    justify-content: center;
-    position: fixed;
-    margin-bottom: 24pt;
+nav {
+  
+
 }
+
+.links {
+    width: 80%;
+    position: center;
+    padding-left: 15%;
+    padding-bottom: 5%;
+  
+}
+
 
 
 #zen-title {
     text-align: center;
+    padding-bottom: 60px;
+    padding-top: 30px;
 }
 
-#pictures {
-    max-width:540px;
-    max-height:589px;
-    width: 540px;
-    height: 589px;
-}
 
 body {
-    font-family: 'Prompt', sans-serif;}
-
-div {
-    padding-top: 80px;
+    font-family: 'Prompt', sans-serif;
 }
 
-#newspring {
-    float: left;
-    padding-left: 10pt;
-    padding-right: 10pt;
-    display: inline;
+img {
+    max-width: 100%;
 }
 
-#baja {
-    float:right;
-    padding-left: 10pt;
-    padding-right: 10pt;
-    padding-bottom: 80px;
-    
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 5%;
+}
+
+
+.picture1 {
+    padding-left: 20%;
+    padding-bottom: 10%;
+}
+
+.picture2 {
+    padding-right: 20%;
+    padding-bottom: 10%;
+
 }
 
 footer {
-    position: fixed;
     background-color: black;
-    bottom: 0px;
-    width:100%;
+    width: 100%;
     color: white;
-    padding-top: px;
 }
 
+p {
+    text-align: center;
+}
+
+.icons {
+    float: right;
+    padding-right: 10px;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 25px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+h2 {
+    text-align: center;
+    
+}
+
+.clear {
+    width: 100%;
+}
+
+.paddingbottom {
+    padding-bottom: 10px;
+}
+
+.addtocart {
+    width: 300px;
+    padding: 10px;
+    border-bottom: 2px;
 }
