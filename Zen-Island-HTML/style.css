@@ -113,3 +113,10 @@ h1 {
     padding: 10px;
     border-bottom: 2px;
 }
+
+.clearcenter {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-left: 50%
+    
