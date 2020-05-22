@@ -5,13 +5,13 @@ a {
     color: black;
     width: 20%;
     display: inline-block;
-    font-size: 12pt;
+    font-size: 1rem;
 
 }
 
 .sale {
     font-family: 'Prompt', sans-serif;
-    font-size: 12pt;
+    font-size: 1rem;
     color: white;
     background: #8096A2;
     width: 100%;
@@ -35,8 +35,8 @@ nav {
 
 #zen-title {
     text-align: center;
-    padding-bottom: 60px;
-    padding-top: 30px;
+    padding-bottom: 3.214rem;
+    padding-top: 1.607rem;
 }
 
 
@@ -67,8 +67,9 @@ img {
 }
 
 footer {
-    background-color: black;
+    background-color: #8096A2;
     width: 100%;
+    padding: 20px;
     color: white;
 }
 
@@ -78,13 +79,13 @@ p {
 
 .icons {
     float: right;
-    padding-right: 10px;
+    padding-right: 1.0714rem;
 }
 
 h1 {
     text-align: center;
     width: 100%;
-    padding-bottom: 25px;
+    padding-bottom: 1.339rem;
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -92,10 +93,9 @@ h1 {
 .head {
     text-align: center;
     width: 100%;
-    padding-bottom: 25px;
+    padding-bottom: 1.339rem;
     grid-column-start: 1;
     grid-column-end: 3;
-    display: block;
     font-size: 2em;
     font-weight: bold;
 }
@@ -105,13 +105,17 @@ h1 {
 }
 
 .paddingbottom {
-    padding-bottom: 10px;
+    padding-bottom: .5357rem;
+}
+
+.paddingleft {
+    padding-left: 1rem;
 }
 
 .addtocart {
-    width: 300px;
-    padding: 10px;
-    border-bottom: 2px;
+    width: 16.0714rem;
+    padding: .5357rem;
+    border-bottom: .1071rem;
 }
 
 .outpage {
@@ -123,5 +127,13 @@ h1 {
     justify-content: center;
     
     }
+
+i {
+     font-size: 1.7rem;
+    text-align: center;
+    padding-right: 10px;
+    position: relative; right: 1rem; bottom: 1.5rem;
     
+        
+}
     
