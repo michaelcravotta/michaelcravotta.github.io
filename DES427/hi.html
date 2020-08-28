@@ -1,3 +1,16 @@
 <h1>Hey, My Name is Michael </h1>
 
 <p>This is my github</p>
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  if (mouseIsPressed) {
+    fill(0);
+  } else {
+    fill(255);
+  }
+  ellipse(mouseX, mouseY, 80,80);
+}
